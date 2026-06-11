@@ -4,7 +4,7 @@ const statusBadge = document.getElementById('statusBadge');
 const quoteBox = document.getElementById('quoteBox');
 const stitchGif = document.getElementById('stitchGif');
 
-// Робочі посилання на GIF-ки Стіча
+
 const normalGif = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjkyMGdlenRxdHhmY3l0dDNxc3M4Yzd6YXRmb2E3azY1cHV6bnZkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VRyiBxgvy9H3y/giphy.gif";
 const angryGif = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3doOXI3bGZldTJpdWl1bmxxbjN2ZWRzdWQ1MDVwZHRuYWRld2RvaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fHgKZHDH1BHzi/giphy.gif";
 const stitchQuotes = [
