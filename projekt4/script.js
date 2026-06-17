@@ -7,7 +7,7 @@ const brawlers = {
         damage: 80,
         super_damage: 250,
         color: '#ffd93d',
-        image: 'https://static.wikia.nocookie.net/brawlstars/images/8/83/%D0%A8%D0%B5%D0%BB%D0%BB%D0%B8_Skin-DefaultOld.png/revision/latest?cb=20240718150705&path-prefix=ru'
+        image: 'https://foni.papik.pro/uploads/posts/2024-09/thumbs/foni-papik-pro-61or-p-kartinki-shelli-bravo-stars-na-prozrachnom-1.png'
     },
     COLT: {
         name: 'Colt',
@@ -17,7 +17,7 @@ const brawlers = {
         damage: 120,
         super_damage: 300,
         color: '#00ff00',
-        image: 'https://static.wikia.nocookie.net/brawlstars/images/8/80/%D0%9A%D0%BE%D0%BB%D1%8C%D1%82_Skin-Default.png/revision/latest?cb=20231027155117&path-prefix=ru'
+        image: 'https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fcolt-is-one-of-the-coolest-brawlers-fight-me-v0-62mvvampydsa1.png%3Fauto%3Dwebp%26s%3D9e53b360c97d8205d69fe962d34ced6bf7b08cb4'
     },
     NITA: {
         name: 'Nita',
