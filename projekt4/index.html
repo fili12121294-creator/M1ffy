@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawl Stars - Гра</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>⭐ BRAWL STARS ⭐</h1>
+            <p class="subtitle">Оберіть бійця та почніть бій!</p>
+        </header>
+
+        <section id="selection-screen" class="screen active">
+            <h2>Вибір Бійця</h2>
+            <div class="brawlers-grid" id="brawlersGrid"></div>
+        </section>
+
+        <section id="battle-screen" class="screen">
+            <div class="battle-container">
+                <div class="player-side">
+                    <h3 id="playerName">Гравець</h3>
+                    <div class="brawler-avatar" id="playerAvatar"></div>
+                    <div class="stats">
+                        <div class="health-bar">
+                            <div class="health-fill" id="playerHealth"></div>
+                        </div>
+                        <p id="playerHealthText">HP: 800/800</p>
+                    </div>
+                    <div class="super-bar">
+                        <div class="super-fill" id="playerSuper"></div>
+                        <p class="super-text" id="playerSuperText">Super: 0/100</p>
+                    </div>
+                </div>
+
+                <div class="battle-center">
+                    <p class="vs-text">VS</p>
+                    <button class="btn btn-attack" id="attackBtn">АТАКА</button>
+                    <button class="btn btn-super" id="superBtn" disabled>СУПЕР</button>
+                    <button class="btn btn-heal" id="healBtn">ЛІКУВАННЯ</button>
+                </div>
+
+                <div class="enemy-side">
+                    <h3 id="enemyName">Ворог</h3>
+                    <div class="brawler-avatar" id="enemyAvatar"></div>
+                    <div class="stats">
+                        <div class="health-bar">
+                            <div class="health-fill" id="enemyHealth"></div>
+                        </div>
+                        <p id="enemyHealthText">HP: 800/800</p>
+                    </div>
+                    <div class="super-bar">
+                        <div class="super-fill" id="enemySuper"></div>
+                        <p class="super-text" id="enemySuperText">Super: 0/100</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="battle-log">
+                <h4>Лог Битви</h4>
+                <div class="log-content" id="battleLog"></div>
+            </div>
+
+            <button class="btn btn-back" id="backBtn">НАЗАД</button>
+        </section>
+
+        <section id="result-screen" class="screen">
+            <div class="result-box">
+                <h2 id="resultTitle">ПЕРЕМОГА!</h2>
+                <p id="resultMessage">Ти переміг врага!</p>
+                <button class="btn btn-primary" id="restartBtn">ГРАТИ ЩЕ РАЗ</button>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <h2>📚 Галерея Бійців</h2>
+            <div class="gallery-container" id="galleryContainer"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
